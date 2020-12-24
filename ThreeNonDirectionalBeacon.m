@@ -80,7 +80,7 @@ for i= 1:length(Px)
     plotAircraftLocation(NDB, N, K, x, y, P, Px, Py, i, dimX, dimY);
 end
  
-% Error for the lasst point of the route
+% Error for the last point of the route
 plotAircraftLocation(NDB, N, K, x, y, P, x, y, 2, dimX, dimY);
 
 function [] =  plotAircraftLocation(NDB, N, K, x, y, P, Px, Py, i, dimX, dimY)
